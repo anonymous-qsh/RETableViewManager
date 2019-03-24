@@ -35,7 +35,7 @@
         section.indexTitle = sectionTitle; // assign index title
         
         // Add 5 items with name `section title + item index`
-        //
+        // @todo: in this will course exception.
         for (NSInteger i = 1; i <= 5; i++)
             [section addItem:[NSString stringWithFormat:@"%@%li", sectionTitle, (long) i]];
         
